@@ -1,0 +1,83 @@
+@font-face {
+    font-family: "Lato";
+    src: url("/fonts/Lato-Regular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Lato";
+    src: url("/fonts/Lato-Bold.ttf") format("truetype");
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Lato";
+    src: url("/fonts/Lato-Light.ttf") format("truetype");
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Lato";
+    src: url("/fonts/Lato-Italic.ttf") format("truetype");
+    font-weight: normal;
+    font-style: italic;
+}
+body {
+    font-family: Arial, Verdana,  sans-serif; /* Семейство шрифтов */
+    font-size: 11pt; /*Размер основного шрифта в пунктах */
+    background-color: #000000; /* Цвет фона веб-страницы */
+    color: rgb(238, 238, 238);  /*Цвет основного текста */
+}
+.list {
+    list-style:  none;
+}
+.list-item :nth-child(2) {
+    text-decoration: underline; /* верхние подчеркивание*/
+}
+.list-item :nth-child(3) {
+    text-decoration: overline; /* нижние подчеркивание*/
+}
+.list-item-submenu-block {
+    font-family: 'Roboto', sans-serif;
+}
+.text {
+    font-family: "Lato" , "Roboto" , sans-serif;
+    font-style: italic;
+    color: red;
+}
+.text {
+    font-weight: bold ;
+}
+.block {
+    width: 200px;
+    height: 200px;
+    background-color: grey ;
+    border: 15px solid red;
+    /* padding-top: 10px;
+    padding-right: 5px;
+    padding-bottom: 7px;
+    padding-left: 15px; */
+    padding: 10px 5px 7px 15px;
+    margin: 0 auto ; /*50 с верху а авто это центрелиховать по оси y*/
+    text-align: center ;
+    
+}
+.block {
+    width: 200px;
+    height: 200px;
+    min-height: 50px ;
+    max-height: 60px ;
+     background-color: grey ;
+    background-image: url(/png/DS3.jpg) ;
+    border: 15px solid red;
+    /* padding-top: 10px;
+    padding-right: 5px;
+    padding-bottom: 7px;
+    padding-left: 15px; */
+    padding: 10px 5px 7px 15px;
+    margin: 0 auto ; /*50 с верху а авто это центрелиховать по оси y*/
+    text-align: center ;
+    /* overflow: scroll ; */
+    box-sizing: border-box ;
+    border-radius: 50% ;
+}
